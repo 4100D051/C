@@ -1,0 +1,18 @@
+printf 把後面打的字印上
+#include 把檔案內容加到到程式裡
+return 回傳結果(結束)
+
+//int的應用
+int name = jerry 把後面的jerry變成name的形式顯示
+printf("%d",name);
+A:jerry
+
+//float的應用
+float name = 168.5 把後面的168.5變成name的形式顯示,並顯示小數點後六位
+printf("%f",name);
+A:168.500000 (只想顯示小數點後一位解決辦法可以用%.1來解決)
+
+\\char的應用
+char name[想打多少字就輸入多少的數字(一定要大於你打的字)] = 台灣
+printf("%s",name);
+A:台灣 
