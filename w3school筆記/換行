@@ -31,3 +31,4 @@ int main() {
 }
 ##Hello World!
 I am learning C++
+\n和endl用來斷行。但是，\n使用更頻繁並且是首選方式。
