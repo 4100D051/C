@@ -1,0 +1,14 @@
+如果是宣告為的物件 const ，您只能呼叫常數成員函式。 這樣可以確保該常數物件永不會遭到修改。
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  const int minutesPerHour = 60;
+  const float PI = 3.14;      \\加上cout就可以保證宣告的數不會被改變
+  cout << minutesPerHour << "\n";
+  cout << PI;
+  return 0;
+}
+## 60
+   3.14
