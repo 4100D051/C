@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5, y = 6, z = 50; //把5放進x裡,把6放進y裡,把50放進z裡;
+  cout << x + y + z;
+  return 0;
+}
+## 61
