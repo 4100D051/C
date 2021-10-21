@@ -1,0 +1,52 @@
+在 C++ 中，有不同類型的變數（用不同的關鍵字定義），例如：
+
+int - 存儲整數（整數），不帶小數，例如 123 或 -123
+double - 存儲帶小數的浮點數，例如 19.99 或 -19.99
+char- 存儲單個字符，例如 'a' 或 'B'。Char 值用單引號括起來
+string- 存儲文本，例如“Hello World”。字符串值用雙引號括起來
+bool - 存儲具有兩種狀態的值：ture或false
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int myNum = 15;//把後面的15放進myNum裡
+  cout << myNum;
+  return 0;
+}
+## 15
+
+OR>>
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int myNum; //宣告一個變數
+  myNum = 15; //把15放進剛剛宣告的變數裡
+  cout << myNum;
+  return 0;
+}
+## 15
+-----------------------------------------
+#include <iostream>
+using namespace std;
+
+int main() {
+  int myAge = 35; //把35放進myAge裡
+  cout << "I am " << myAge << " years old.";
+  return 0;
+}
+## I am 35 years old.
+------------------------------------------
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5; //5放進x裡
+  int y = 6; //6放進y裡
+  int sum = x + y; //x+y的總合會放進sum裡
+  cout << sum;
+  return 0;
+}
+## 11
