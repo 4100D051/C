@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World! \n"; //在你的字串後加上\n即可換行
+  cout << "I am learning C++";
+  return 0;
+}
+## Hello World!
+   I am learning C++
+-------------------------------
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World! \n\n"; //連續用上兩個/n會連續換行
+  cout << "I am learning C++";
+  return 0;
+}
+## Hello World!
+   
+   I am learning C++
+-------------------------------
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!" << endl; //endl也是換行
+  cout << "I am learning C++";
+  return 0;
+}
+##Hello World!
+I am learning C++
