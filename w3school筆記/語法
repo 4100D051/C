@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  cout << "Hello World!"; //coyt一起使用插入運算符（<<）到輸出/打印文本
+  cout << "Hello World!"; //cout一起使用插入運算符（<<）到輸出/打印文本
   return 0;
 } //記得最後要加大括號
 
