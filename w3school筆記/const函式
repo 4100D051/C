@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
   const int minutesPerHour = 60;
-  const float PI = 3.14;      \\加上cout就可以保證宣告的數不會被改變
+  const float PI = 3.14;      \\加上const就可以保證宣告的數不會被改變
   cout << minutesPerHour << "\n";
   cout << PI;
   return 0;
