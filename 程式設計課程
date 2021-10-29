@@ -1,1 +1,48 @@
+#include<stdio.h> 
+#include<stdlib.h>
+int main(){
+char ch='6';//0011 0110
+char mir=127;//0111 1111
+printf("%c:%c\n",ch,(~ch)&mir);//~ch=1100 1001
+                    //(~ch)&mir =0100 1001
+	system("PAUSE");
 
+	return 0;
+}
+##6:I
+--------------------------------------------------------
+#include<stdio.h> 
+#include<stdlib.h>
+int main(){
+int x = 10,y = 100,tmp ;
+tmp=y;
+y=x;
+x=tmp;
+printf("%d,%d\n",x,y);
+## 100,10
+
+x=x^y;
+y=x^y;
+x=x^y;
+printf("%d,%d\n",x,y);
+system("pause");
+	return 0;
+}
+##10,100
+---------------------------------------------
+#include<stdio.h> 
+#include<stdlib.h>
+int main(){
+int x = 20;
+printf("%d 左移兩個位元 = %d\n",x,x<<3);
+
+system("pause");
+	return 0;
+}
+##160
+
+int j;
+float i;
+j=3*(i = 8+2);
+j = 8+2;
+j= 3*i;
