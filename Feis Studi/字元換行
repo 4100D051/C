@@ -1,0 +1,18 @@
+#include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+printf ("Hello\n");  // \n表示一個字元的換行
+printf("world");
+	return 0;              
+}
+## Hello 
+   world
+--------------------------------------------------------
+  #include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+printf ("Hello\"C\"world");  //如果想把"投放到螢幕上可以使用\
+	return 0;                  //利用\\n也可以把\n投放到螢幕上
+} 
+## Hello\"C\"world
+
