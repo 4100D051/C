@@ -1,15 +1,25 @@
+在 C++ 中，有不同類型的變數（用不同的關鍵字定義），例如：
+
+int - 存儲整數（整數），不帶小數，例如 123 或 -123
+double - 存儲帶小數的浮點數，例如 19.99 或 -19.99
+char- 存儲單個字符，例如 'a' 或 'B'。Char 值用單引號括起來
+string- 存儲文本，例如“Hello World”。字符串值用雙引號括起來
+bool - 存儲具有兩種狀態的值：ture或false
+
+%d表示10進位整數
+
 #include <stdio.h>  
 #include <stdlib.h>                        
 int main () {
-int integer1;   
-int integer2;
-int sum;
+int integer1;   //建立一個名為integer1的整數變數(會在記憶裡佔據一個空間)
+int integer2;   //建立一個名為integer2的整數變數
+int sum;        //建立一個名為sum的整數變數
 printf("Please enter the first integer: ");
-scanf("%d",&integer1);                          //scanf表示從電腦讀入資料
+scanf("%d",&integer1);              //&取址運算符號(找到記憶體裡的integer1)            //scanf表示從電腦讀入資料(例如輸入1)
 printf("Please enter the second integer: ");
-scanf("%d",&integer2);
-sum = integer1 + integer2;
-printf("Sum is %d.",sum);
+scanf("%d",&integer2);                          //再輸入2
+sum = integer1 + integer2;                      //sum = 1 + 2
+printf("Sum is %d.",sum);                       //這時電腦會把剛剛的數字加在一起,答案 ## 3
 	return 0;              
 }
 
