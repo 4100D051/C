@@ -1,0 +1,16 @@
+#include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+int integer1;   //建立一個名為integer1的整數變數(會在記憶裡佔據一個空間)
+int integer2;   //建立一個名為integer2的整數變數      
+printf("Please enter the first integer: ");
+scanf("%d",&integer1);             
+printf("Please enter the second integer: ");
+scanf("%d",&integer2);                         
+int temp = integer1;
+integer1 = integer2;
+integer2 = temp;
+printf("integer1 is : %d.",integer1);                       
+printf("integer2 is : %d.",integer2); 
+  return 0;              
+}
