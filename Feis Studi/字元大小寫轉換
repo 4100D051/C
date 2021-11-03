@@ -1,3 +1,5 @@
+![image](https://github.com/4100D051/4100D051/blob/main/%E7%B7%A8%E7%A2%BC.PNG)
+```
 #include <stdio.h>
 #include <stdlib.h>
 int main () {
@@ -8,3 +10,4 @@ printf("%c",output);
 	return 0;
 }
 ## a
+```
