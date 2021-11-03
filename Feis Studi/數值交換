@@ -4,13 +4,15 @@ int main () {
 int integer1;   //建立一個名為integer1的整數變數(會在記憶裡佔據一個空間)
 int integer2;   //建立一個名為integer2的整數變數      
 printf("Please enter the first integer: ");
-scanf("%d",&integer1);             
+scanf("%d",&integer1);                        //輸入3
 printf("Please enter the second integer: ");
-scanf("%d",&integer2);                         
+scanf("%d",&integer2);                        //輸入5
 int temp = integer1;
 integer1 = integer2;
 integer2 = temp;
-printf("integer1 is : %d.",integer1);                       
-printf("integer2 is : %d.",integer2); 
+printf("integer1 is : %d\n.",integer1);                       
+printf("integer2 is : %d\n.",integer2); 
   return 0;              
 }
+## 5
+   3
