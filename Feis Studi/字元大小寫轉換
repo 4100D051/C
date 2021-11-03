@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main () {
+char input,output;
+scanf("%c",&input);   //假如輸入大寫A
+output = input + 32   //大寫A編碼65加上32後是97,97的編碼就=a
+printf("%c",output);
+	return 0;
+}
+## a
