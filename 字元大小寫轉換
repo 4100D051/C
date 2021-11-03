@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main () {
+char input,output;
+scanf("%c",&input);
+output = input + 32; //大寫A的編碼是65加上32後編碼會變成97,而97的編碼是小寫的a
+printf("%c",output);
+	return 0;
+}
+##a
