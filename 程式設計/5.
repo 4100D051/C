@@ -1,1 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h> 
+int main()
+{
+	int num ;
+	//輸入1~100
+	scanf("%d",&num);
+	//如果使用者輸入的資料在1~100之間(1<=num<=100)
+	//if(num>=1 && num<=100);
+
+	//如果使用者輸入的資料式大於等於1
+	//如果使用者輸入的資料是否小於等於100
+	
+	//則顯示 正確的輸入資料
+	//否則顯示 錯誤的輸入資料 
+	if(num >= 1) 
+	{
+	  if(num<= 100)
+	  {
+		printf("正確的輸入資料");
+	  }
+	  else
+	  {
+		printf("錯誤的輸入資料");
+	  }
+    }
+	else
+	{
+		printf("錯誤的輸入資料");
+	}
+	
+	system("PAUSE");
+	return 0;
+}
 
