@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h> 
+int main()
+{
+	int num;
+	int flag = 0;
+
+	num = 54;
+	if (num < 50){
+		flag++;//flag = 0
+		printf("Message 1...\n");//x
+	}
+		
+	if (num > 50)
+		flag++;//flag = 1
+		printf("Message 2...\n");//o
+	if (num == 50)
+		flag++;//flag = 1
+	printf("Message 3...\n");//x
+	printf("\nflag is %d\n",flag);
+	system("PAUSE");
+	return 0;
+}
+## Message 2...
+   Message 3...
+
+   flag is 1
