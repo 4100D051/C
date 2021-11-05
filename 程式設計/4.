@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h> 
+int main()
+{
+	char ch;
+	//請使用者輸入是否喜歡這個程式 : (y/Y)
+	printf("是否喜歡這個程式 : (y/Y)");
+	//讀使用者的輸入
+	scanf("%c",&ch);
+	//判斷使用者的輸入決定是否喜歡此程式
+	
+	//如果使用者輸入小y,則將值改為大Y 
+	if(ch=='y'){
+		ch = 'Y';
+	}
+	//如果使用者輸入Y,則顯示 我喜歡這個程式
+	//否則顯示 我討厭這程式 
+	if(ch=='Y'){
+		printf("我喜歡這個程式");
+	}else{
+		printf("我討厭這程式");
+	}
+	
+	
+	
+	
+	system("PAUSE");
+	return 0;
+}
