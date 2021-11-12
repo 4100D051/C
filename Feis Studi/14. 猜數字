@@ -36,3 +36,28 @@ if (a = 4){                    //如果輸入成一個=,a會變成4,括弧的答
 	}
 ## a is larger 4.
    a is equal to 4.
+
+----------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+int number = 5;
+int jerry;     //創建一個jerry的變數
+printf ("please enter your jerry: ");    //請使用者輸入資料
+scanf ("%d",&jerry);                     //使用者輸入整數4
+int x = number - jerry;                  //x = 1
+int y = jerry - number ;                 //y = -1
+if (jerry > number){
+	printf("Too large 數字大於%d啦!",y);
+}
+if (jerry < number){                          //整數小於number執行下面的printf
+	printf("Too small 數字小於%d啦!",x);   
+}
+if (jerry == number){
+	printf("Correct 答對啦!\n");
+}
+		system("pause");
+		return 0;
+	}
+## Too small 數字小於1啦!
