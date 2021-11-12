@@ -1,0 +1,38 @@
+#include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+int a = 5;
+if (a<4){
+	printf("a is larger 4.\n");
+}
+if (a>4){
+    printf ("a is smaller than 4.\n");
+}
+if (a == 4){                    //如果輸入成一個=,a會變成4,括弧的答案就會變成4,在表示式裡大於0的值就是turn,會導致答案變成 ## a is larger 4.
+	printf ("a is equal to 4.\n");                                                                                      a is equal to 4.
+}
+		system("pause");
+		return 0;
+	}
+## a is larger 4.
+
+----------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+int a = 5;
+if (a<4){
+	printf("a is larger 4.\n");
+}
+if (a>4){
+    printf ("a is smaller than 4.\n");
+}
+if (a = 4){                    //如果輸入成一個=,a會變成4,括弧的答案就會變成4,在表示式裡大於0的值就是turn,會導致答案變成 ## a is larger 4.
+	printf ("a is equal to 4.\n");                                                                                      a is equal to 4.
+}
+		system("pause");
+		return 0;
+	}
+## a is larger 4.
+   a is equal to 4.
