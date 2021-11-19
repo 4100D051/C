@@ -7,30 +7,37 @@ char grade;
 	printf("What's your score ? ");
 	scanf("%d", &score);
 
-	if(score > 100 || score < 0){
-
-		printf("It's impossible !\n");	
-}
-	else if (score >= 90){     //如果其中一個else if成立將會直接變結果,其餘的else if會直接跳過
-		grade = 'A';
-	}
-	else if (score >= 80)
-		{
-		grade = 'B';
-	}
-	else if (score >= 70){
-		grade = 'C';
-	}
-	else if (score >= 60){
-		grade = 'D';
-}
-	else if(score < 60){
-		grade = 'F';
-		printf("You are down !\n");
-		}
+	if(score > 100 ||score < 0  )  // ||意思是兩個結果只要有一個成立就執行
+	{
 		
-		printf("Score %d ===> %c\n", score, grade);
+	printf("It's impossible !\n");	
+}
 
-		system("pause");
+	else if (score >= 90)   //如果其中一個else if成立將會直接變結果,其餘的else if會直接跳過
+		grade = 'A';
+	
+	else if (score >= 80)
+		
+		grade = 'B';
+	
+	else if (score >= 70)
+		grade = 'C';
+	
+	else if (score >= 60)
+		grade = 'D';
+
+	else if(score>0 && score < 60 ){
+	 
+		grade = 'F';
+		
+		printf("You are down !\n");
+	}
+	
+	 if (score <= 100 && score > 0){
+	 	
+		printf("Score %d ===> %c\n", score, grade);
+}
+		
+	system("pause");
 		return 0;
 	}
