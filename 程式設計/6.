@@ -35,7 +35,7 @@ if(x>0) {//如果x>=0,則絕對值等於0
  abs = x;
  
 }else {//否則絕對值等於-x 
-	abs = -x;
+	abs = -x; //負負得正
 }
 printf("|x| = %d\n", abs);
 
