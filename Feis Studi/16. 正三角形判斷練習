@@ -1,1 +1,18 @@
+#include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+int r1,r2,r3;
+printf ("請輸入數值");
+scanf("%d%d%d",&r1,&r2,&r3);
+if (r1 == r2 && r2 == r3){   
+	//r1等於R2 而且 r2等於r3才會成立
+  printf("正確的正三角形");
+}
 
+	else{
+		printf("錯誤的正三角形");
+	}
+		
+	system("pause");
+		return 0;
+	}
