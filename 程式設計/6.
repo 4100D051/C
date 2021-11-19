@@ -1,0 +1,53 @@
+#include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+int num;
+
+	printf("Input a number : ");
+	scanf("%d", &num);
+
+	if((num != 0) && ! (24 % num)) //24%num == 0 看num可不可以被24整除(因數)
+		printf("Number %d is a factor of 24.\n", num);
+	else
+		printf("Number %d is not a factor of 24.\n", num);
+
+		system("pause");
+		return 0;
+	}
+  
+  
+  
+  
+  #include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+int num;
+
+	int x,y;
+	int abs, max;
+	int year;
+
+	printf("\nInput x : ");
+	scanf("%d", &x);
+
+
+if(x>0) {//如果x>=0,則絕對值等於0  //?2對 :否則就 
+ abs = x;
+ 
+}else {//否則絕對值等於-x 
+	abs = -x;
+}
+printf("|x| = %d\n", abs);
+
+	scanf("%d", &y);
+	abs = (y >= 0) ? y : -y; //有三個運算子( = >= ?:) 
+	printf("|y| = %d\n", abs);
+
+
+printf("\nHow old are you ? ");
+	scanf("%d", &year);
+	printf("  You are %d year%sold.\n",year,(year > 1) ? "s " : " ");
+
+		system("pause");
+		return 0;
+	}
