@@ -10,6 +10,7 @@ int main()
 	if ((grade >= 'A') && (grade <= 'Z'))
 		grade = 'a' + (grade - 'A');
 switch (grade){
+	        case 'A' :
 	/*開始*/case 'a' : printf("Score 90 to 100.\n");
 			  break;
 		case 'b' : printf("Score 80 to 89.\n");
@@ -22,7 +23,7 @@ switch (grade){
 			  break;
 	/*否則*/default : printf("Wrong grade !\n");
     	}
-    	if(grade == 'a'){
+    	if(grade == 'a' || grade == 'A'){
     		 printf("Score 90 to 100.\n");
 		}else if(grade == 'b'){
 			printf("Score 80 to 89.\n");
