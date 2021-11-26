@@ -1,0 +1,21 @@
+#include <stdio.h> 
+#include <stdlib.h>
+int main(){
+int x = 4;
+int y;
+int count = 0;
+while(y != x || count == 0){
+	printf("please enter your x");
+	scanf("%d",&y);
+	count = count + 1;
+	if (y > x){
+		printf("too large 太大了\n");
+	} else {
+		printf("too small\n");
+	}
+}
+printf("Correct 答對了 猜了%d次",count);
+
+	system("PAUSE");
+	return 0;
+}
