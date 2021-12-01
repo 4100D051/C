@@ -1,0 +1,27 @@
+
+#include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+int number;
+int sum = 0;
+int count = 0;
+float average;
+printf("輸入整數(0表示離開)");
+scanf("%d",&number);
+
+while(number !=0){        //如果一開始沒輸入零則重複執行下列
+	sum = sum + number;     //如果一開始輸入零則離開while進入 if
+	count = count + 1;
+	scanf("%d",&number);
+		}
+	if (sum != 0){  //如果使用者一開始沒輸入零等while結束後執行 你的整數合是%f
+		average = (float)sum / count;
+ 		printf("你的整數合是%f",average);
+    }
+ 	else {          //如果一開始使用者輸入零則顯示錯誤
+ 		printf("錯誤");
+	 }
+	
+ 
+ return 0;
+} 
