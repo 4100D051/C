@@ -1,0 +1,32 @@
+
+#include <stdio.h>  
+#include <stdlib.h>                        
+int main () {
+	int id;
+	scanf("%d", &id);
+	switch (id){
+		case 11:
+		case 21:
+		case 31:
+			printf("Jerry");
+			break;
+		case 12:
+		case 22:
+		case 32:
+			printf("Buck");
+			break;
+		case 13:
+		case 23:
+		case 33:
+			printf("ASH");
+			break;
+		case 14:
+		case 24:
+		case 34:
+			printf("ZOFIA");
+			break;
+		}
+		
+
+ return 0;
+}
