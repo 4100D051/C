@@ -9,7 +9,7 @@ int main () {
 	if(grade >= 60){
 		printf("PASS");
 	    }
-		else{
+		else{ //如果if不成立就執行else
 			printf("FAIL");
 		}
 		
