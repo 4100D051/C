@@ -13,7 +13,7 @@ int main()
 		printf("%d. Enter your password : \n   ",try1++);
 		scanf("%d", &passwd);
 		/*if (passwd == PASSWD)
-		        ok = TRUE; //ok = 1;*/
+		        ok = TRUE; //ok = 1; */
 	}while ((!passwd == PASSWD) && (try1 <= 3));
 
 	if (passwd == PASSWD)
