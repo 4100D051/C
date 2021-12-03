@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h> 
+#define PASSWD 1462
+#define TRUE 1
+#define FALSE 0
+int main()
+{
+	int passwd;
+	int ok,try1;
+	ok = FALSE;
+
+	do {
+		printf("%d. Enter your password : \n   ",try1++);
+		scanf("%d", &passwd);
+		/*if (passwd == PASSWD)
+		        ok = TRUE; //ok = 1;*/
+	}while ((!passwd == PASSWD) && (try1 <= 3));
+
+	if (passwd == PASSWD)
+		printf("\nCongratulations !\n");
+	else
+		printf("\nYou are rejected !\n");
+	system("PAUSE");
+	return 0;
+}
