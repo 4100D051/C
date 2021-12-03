@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h> 
+int main()
+{
+int i;
+for(i = 0;i<=100;i+=2){ //i等於零又小於一百執行大括弧,大括弧執行完後i+2繼續執行小弧,直到i<=100
+    printf("%d\n",i);
+}
+	system("PAUSE");
+	return 0;
+}
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h> 
+int main()
+{
+int i;
+for(i = 1;i*i<=500;i+=2){ //i等於1,i*i又小於一百執行大括弧,大括弧執行完後i+2繼續執行小弧,直到i<=500
+    printf("%d\n",i);
+}
+	system("PAUSE");
+	return 0;
+}
+
+
+
+#include <stdio.h>
+#include <stdlib.h> 
+int main()
+{
+int x, y, z;
+for(x = 1,y = 10; (x<=6) && (y<=60) ; x++,y +=10){//x等於1,x又小於6執行大括弧,大括弧執行完後x+1繼續執行小弧,直到i<=6
+	printf("%d  %d\n",x,y);                         //x等於10,x又小於60執行大括弧,大括弧執行完後x+1繼續執行小弧,直到i<=60
+}
+	
+
+	system("PAUSE");
+	return 0;
+}
