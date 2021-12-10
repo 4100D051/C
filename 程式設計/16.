@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main()
+{
+    char ch;
+ while(1){
+     scanf("%c",&ch);
+     printf("你輸入的數值是%c\n",ch);
+
+     if(ch == 'q' || ch == 'Q'){ //當ch是q 或 Q時,觸發break直接離開while
+         break;
+     }
+
+     if(ch =='c'|| ch == 'C'){ //當ch是c 或 C時,觸發continue直接跳到while繼續執行
+         continue;
+     }
+     printf("繼續程式");
+ }
+	printf("程式結束了");
+	system("PAUSE");
+	return 0;
+}
+
+-----------------------------------------------------------------------------------
+
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main()
+{
+    char ch;
+ do{
+     scanf("%c",&ch);
+     printf("你輸入的數值是%c\n",ch);
+  if(ch =='c'|| ch == 'C'){    //當ch是c 或 C時,觸發continue直接跳到do繼續執行
+        printf("繼續程式\n"); 
+		 continue;
+    }  
+ }
+ 	while(!(ch == 'q' || ch == 'Q')); //當ch是q 或 Q 時直接離開while結束程式
+  
+ 		
