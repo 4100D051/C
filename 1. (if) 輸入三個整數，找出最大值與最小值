@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+//輸入三個整數，找出最大值與最小值
+int a,b,c;
+int max;
+int min;
+printf("請輸入三個整數");
+scanf("%d %d %d ",&a,&b,&c);
+if(a>=b){
+	max = a;
+	min = b;
+
+}else{
+	max = b;
+	min = a;
+}
+if(max <= c){
+	max = c;
+}
+if(min>= c){
+	min = c;
+}
+
+printf("大直為%d\n小值為%d",max,min);
+
+
+system("pause");
+return 0;
+
+}
