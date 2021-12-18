@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+//輸入一正整數，判斷為奇數或偶數
+int number;
+printf("請輸入一個整數");
+scanf("%d",&number);
+if(number %2 == 0){
+	printf("此數為偶數");
+}else{
+	printf("此樹為基數");
+}
+
+system("pause");
+return 0;
+
+}
