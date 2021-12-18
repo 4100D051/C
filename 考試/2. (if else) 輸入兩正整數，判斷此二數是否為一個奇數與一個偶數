@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+//輸入一正整數，判斷為奇數或偶數
+int number;
+int number2;
+printf("請輸入一個整數");
+scanf("%d %d",&number,&number2);
+if(number %2 == 0 && number2 %2 != 0 || number2 %2 == 0 && number %2 != 0 ){
+	printf("%d %d一個恰為基數和偶數");
+}else{
+	printf("%d %d不為一個奇數與一個偶數");
+}
+	
+
+system("pause");
+return 0;
+
+}
