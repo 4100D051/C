@@ -1,6 +1,6 @@
 ![image](https://github.com/4100D051/4100D051/blob/main/9.PNG)
 ![image](https://github.com/4100D051/4100D051/blob/main/9.0.1.PNG)
-```
+```C++
 #include <stdio.h>  
 #include <stdlib.h>                        
 int main () {
@@ -11,4 +11,4 @@ int main () {
 	
  return 0;
 }
-```
+```C++
