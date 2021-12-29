@@ -1,3 +1,4 @@
+```C++
 /* ch5 goto1.c */
 
 #include <stdio.h> 
@@ -25,5 +26,5 @@ printf("答案%f",s);
 	system("PAUSE");
 	return 0;
 }
-
+```C++
 	
